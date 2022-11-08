@@ -14,6 +14,8 @@ justify-content:space-between
     display: flex;
      flex-wrap: wrap;
       justify-content: space-evenly;
+
+ 
  } 
  .footer{
 display: flex;
@@ -22,5 +24,5 @@ display: flex;
   p,h2{ text-align: center;
  }
  body{
-    background-color:#A37
+    background-color:violet
 }
