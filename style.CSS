@@ -1,4 +1,4 @@
-h1,h2,h3,h4 {
+h2,h3,h4 {
     color: crimson;
     text-align: center;   
 }
@@ -40,4 +40,93 @@ display: flex;
 
 a,img{border:none;}
 
+body{
+    background-color:lightgrey
+    
+}
+
  
+ 
+.menu {
+    position: relative;
+    background-color:crimson;
+    overflow: hidden;
+  }
+  .menu a{
+    color:white;
+  }
+.center-menu{
+    float: center;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+  
+.center-menu:hover {
+    background-color:darkgreen;
+    color:#ddd;
+  }
+  .center-menu.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .center-menu{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .menu-left{
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+  
+.menu-left:hover {
+    background-color:darkgreen;
+    color: white;
+  }
+  .menu-left.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .menu-right{
+    float: right;
+    color:#fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+  
+.menu-right:hover {
+    background-color: darkgreen;
+    color: white;
+  }
+  .menu-right.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .item{
+    float:center
+
+  }
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .hello2{
+    text-align:center
+  }
